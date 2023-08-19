@@ -1,0 +1,325 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: rgb(35, 35, 35);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container {
+	max-width: 900px;
+}
+
+.room-form {
+	max-width: 700px;
+}
+
+.chat_img {
+	float: left;
+	width: 11%;
+}
+
+.chat_img img {
+	width: 100%
+}
+
+.inbox_chat {
+	overflow-y: scroll;
+}
+
+.active_chat {
+	background: #e8f6ff;
+}
+
+.incoming_msg
+{
+	margin-bottom: 15px;
+}
+
+.incoming_msg_img {
+	display: inline-block;
+	width: 6%;
+}
+
+.incoming_msg_img img {
+	width: 100%;
+}
+
+.received_msg {
+	display: inline-block;
+	padding: 0 0 0 10px;
+	vertical-align: top;
+	width: 92%;
+}
+
+.received_withd_msg p {
+	background: #d4d4d4 none repeat scroll 0 0;
+	border-radius: 0 15px 15px 15px;
+	color: #646464;
+	font-size: 14px;
+	margin: 0;
+	padding: 5px 10px 5px 12px;
+	width: 100%;
+}
+
+.time_date {
+	color: #747474;
+	font-size: 12px;
+	margin: 8px 4px;
+}
+
+.incoming_msg_username {
+	color: #4f67a9b4;
+	font-size: 10px;
+	margin: 8px 0 0;
+}
+
+.received_withd_msg {
+	width: 50%;
+}
+
+.mssgs {
+	float: left;
+	width: 60%;
+}
+
+.sent_msg p {
+	background: #0465ac;
+	border-radius: 12px 15px 15px 0;
+	font-size: 14px;
+	margin: 0;
+	color: #fff;
+	padding: 5px 10px 5px 12px;
+	width: 100%;
+}
+
+.outgoing_msg {
+	overflow: hidden;
+	margin: 10px 0 20px;
+}
+
+.sent_msg {
+	float: right;
+	width: 46%;
+}
+
+.input_msg_write input {
+	background-color: inherit;
+	border: medium none;
+	color: #484747;
+	font-size: 15px;
+	min-height: 48px;
+	width: 97%;
+	outline: none;
+}
+
+.type_msg {
+	background-color: #edecec;
+	border-top: 1px solid #eae8e8;
+	position: relative;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.msg_send_btn {
+	background: #05728f none repeat scroll 0 0;
+	border: none;
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+	font-size: 15px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 33px;
+	height: 33px;
+}
+
+.messaging {
+	display: flex;
+}
+
+.msg_history {
+	height: 480px;
+	border: 1px solid rgba(159, 159, 159, 0.183);
+	margin-left: 10px;
+	padding: 10px 20px;
+	display: inherit;
+	overflow-y: scroll;
+	overflow-x: auto;
+}
+
+.google-btn {
+	width: 200px;
+	height: 42px;
+	background-color: #4285f4;
+	border-radius: 2px;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .25);
+	display: block;
+	margin: 30px 0px;
+}
+
+.google-icon-wrapper {
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 1px;
+	width: 40px;
+	height: 40px;
+	border-radius: 2px;
+	background-color: #fff;
+}
+
+.google-icon {
+	position: absolute;
+	margin-top: 11px;
+	margin-left: 11px;
+	width: 18px;
+	height: 18px;
+}
+
+.btn-text {
+	float: right;
+	margin: 11px 11px 0 0;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 0.2px;
+	font-family: "Roboto";
+}
+
+.google-btn:hover {
+	box-shadow: 0 0 6px #4285f4;
+}
+
+.google-btn:active {
+	background: #1669F2;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience {
+    background: #BA68C8;
+    color: #fff;
+    border: solid 1px #BA68C8
+}
+.camera_icon{
+	display: block;
+	cursor:pointer;
+	margin-top: 20px;
+}
+.camera_icon:hover
+{
+	color: rgb(52, 99, 57);
+}
+.form
+{
+	width:300px;
+}
+.submit__btn
+{
+	width: 300px;
+	min-width: 200px;
+    padding: 10px;
+	color: inherit !important;
+	background-color:#5865F2 !important;
+	margin-top:15px;
+}
+
+.container_bg
+{
+	min-height: 100vh;
+	background-image: url(/static/images/login_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_container
+{
+	background-color: rgba(0,0,0,.6);
+	backdrop-filter: blur(10px);
+	padding: 2rem 4rem;
+	color: whitesmoke;
+}
+.legend
+{
+	padding:20px;
+}
+.parent_signup
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items:center;
+}
+.signup_content
+{
+    font-size: initial;
+	padding-left:80px;
+}
+.content_title
+{
+	color:inherit;
+	font-weight:800;
+	letter-spacing:3px;
+	margin-bottom:15px;
+}
+.paragraph
+{
+	color:darkgrey;
+	max-width: 370px;
+}
+.loading-div
+{
+	background: rgba(0,0,0,.75);
+	backdrop-filter: blur(4px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+}
+.loading-svg{
+	width: 100px;
+    height: 100px;
+	margin: 20% auto;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+
